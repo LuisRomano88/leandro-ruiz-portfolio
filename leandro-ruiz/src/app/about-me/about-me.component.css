@@ -1,0 +1,40 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    height: max-content;
+    padding: 30px;
+}
+
+.text{
+    width: fit-content;
+    padding: 50px;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.image{
+    padding: 50px;
+}
+
+.image img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

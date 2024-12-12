@@ -1,0 +1,54 @@
+<div class="container">
+
+    <h1>Contacto</h1>
+    <div class="info-contact">
+        <div>
+            <img src="../../assets/img/horario.png" alt="">
+            <h4>Horarios</h4>
+            <p>Lunes a Viernes <br>de 9:00 a 20 hs.</p>
+        </div>
+        <div>
+            <img src="../../assets/img/telefono.png" alt="">
+            <h4>Telefonos</h4>
+            <p>+54 261-599-8899</p>
+            <p>+54 261-569-8741</p>
+        </div>
+        <div>
+            <img src="../../assets/img/email.png" alt="">
+            <h4>Email</h4>
+            <p>leandroruizabogado@gmail.com</p>
+        </div>
+    </div>
+    <p id="info-text">Completa el formulario y te contactamos a la brevedad</p>
+    <div class="form-contact">
+        <form action="post">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label>Apellido:</label>
+            <input type="text" id="apellido" required>
+            <label>E-mail:</label>
+            <input type="email" id="email" required>
+            <label>telefono:</label>
+            <input type="tel" id="telefono" required>
+
+            <fieldset>
+                <legend>Tipo de consulta:</legend>
+                <div class="radio">
+                    <input type="radio" id="opcionA" name="tipoConsulta" value="A" required>
+                    <label for="opcionA"> Opción A</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="opcionB" name="tipoConsulta" value="B">
+                    <label for="opcionB"> Opción B</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="opcionC" name="tipoConsulta" value="C">
+                    <label for="opcionC"> Opción C</label>
+                </div>
+            </fieldset>
+
+            <textarea id="mensaje" placeholder="Escriba su mensaje..." rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>

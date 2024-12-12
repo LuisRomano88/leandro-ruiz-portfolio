@@ -1,0 +1,61 @@
+.container{
+    width: 100%;
+    
+}
+
+.image img{ 
+    object-fit: cover;
+    height: 750px;
+    width: 100%;
+
+}
+
+.text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Asegúrate de que el texto sea visible sobre la imagen */
+    background: rgba(0, 0, 0, 0.616); /* Opcional, agrega un fondo semitransparente */
+    padding: 10px; /* Espaciado interno para mayor legibilidad */
+    border-radius: 5px; /* Opcional, bordes redondeados */
+    width: 75%;
+    padding: 30px;
+
+}
+
+.text h2{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'American Captain' , sans-serif;
+
+}
+.text p{
+    font-size: 1.5rem;
+    margin: 50px 0 50px 0;
+}
+
+.contact {
+	background-color:#434159;
+	border-radius:5px;
+	border:1px solid #434159;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1rem;
+	font-weight:bold;
+	padding:12px 61px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #528ecc;
+    border-color: #FFF;
+}
+.contact:hover {
+	background-color:#251CA6;
+    border-color: #251CA6;
+    cursor: pointer;
+}
+.contact:active {
+	position:relative;
+	top:1px;
+}

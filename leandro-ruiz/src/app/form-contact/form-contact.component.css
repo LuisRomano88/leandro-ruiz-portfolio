@@ -1,0 +1,173 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+    background: rgb(37,28,166);
+    background: linear-gradient(83deg, rgba(37,28,166,1) 0%, rgba(193, 192, 218, 0.99) 100%);     color: #fff;
+    font-family: 'American Captain';
+    padding: 30px;
+    margin: 50px 0 50px 0;
+}
+
+.info-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-contact div{
+
+    width: 33%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.info-contact div:nth-child(1){
+    border-right: 1px solid #c4c4c4; 
+}
+.info-contact div:nth-child(2){
+    border-right: 1px solid #c4c4c4; 
+}
+
+.info-contact div h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    color: #434159;
+}
+
+.info-contact div p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #434159;
+}
+
+#info-text{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    font-weight: 600;
+    color: #434159;
+}
+
+
+
+.form-contact{
+    background-color: #FFF;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 35%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 11px 14px 4px 0px rgba(0,0,0,0.75);
+    background: #827FB0;
+    margin-bottom: 50px;
+}
+
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px;
+    width: 100%;
+}
+
+.form-contact label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-contact input {
+    outline: none; 
+    padding: 1px;
+    font-size: 16px; 
+    transition: border-color 2s; 
+    background-color: #FFF;
+    color: #000000;
+    text-align: left;
+    margin: 5px 0 25px 0;
+    height: 25px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    border: 2px solid #868686; 
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #251CA6;
+    
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.25rem;
+    margin-top: 20px;
+
+}
+
+button {
+    width: 25%;
+    height: 30px;
+    background-color: #251CA6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+/* .container{
+
+}
+
+
+.form-contact{
+    
+}
+
+.form-contact form{
+
+}
+
+label{
+
+}
+
+input{
+
+}
+
+*/

@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ececec;
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+h1{
+    color: #251CA6;
+    font-family: 'Radicalis', sans-serif;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+h2{
+    color: #100B4D;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-family: 'American Captain';
+
+}
+
+.secciones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    
+}
+
+li{
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px 20px 0 20px;
+    color: #100B4D;
+}
+
+

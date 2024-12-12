@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    background-color: #fff;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+    background: rgb(37,28,166);
+    background: linear-gradient(83deg, rgba(37,28,166,1) 0%, rgba(193, 192, 218, 0.99) 100%);     color: #fff;
+    font-family: 'American Captain';
+    padding: 30px;
+    margin: 0 0 50px 0;
+}
+
+.defensa, .asesoramiento{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+
+.defensa h2, .asesoramiento h2{
+    font-size: 3rem;
+    text-align: left;
+    padding: 20px;
+    font-family: 'American Captain';
+}
+
+.defensa p, .asesoramiento p{
+    font-size: 1.25rem;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ul li{
+    font-size: 1.25rem;
+    margin-left: 2%;
+}
+
+.defensa button{
+    background-color: #25D366;
+    border: #25D366;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    width: 25%;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.defensa button:hover{
+    scale: 1.1;
+    border: 2px #000 solid;
+}
+
