@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  abrirWhatsApp() {
+    window.open('http://wa.me/+542612132072', '_blank');
+  }
+
+
 }

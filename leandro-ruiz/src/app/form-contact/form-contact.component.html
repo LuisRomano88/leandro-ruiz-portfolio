@@ -10,8 +10,7 @@
         <div>
             <img src="../../assets/img/telefono.png" alt="">
             <h4>Telefonos</h4>
-            <p>+54 261-599-8899</p>
-            <p>+54 261-569-8741</p>
+            <i class="fab fa-whatsapp"></i><a href="#"> +54 261-569-4785</a>
         </div>
         <div>
             <img src="../../assets/img/email.png" alt="">
@@ -30,24 +29,8 @@
             <input type="email" id="email" required>
             <label>telefono:</label>
             <input type="tel" id="telefono" required>
-
-            <fieldset>
-                <legend>Tipo de consulta:</legend>
-                <div class="radio">
-                    <input type="radio" id="opcionA" name="tipoConsulta" value="A" required>
-                    <label for="opcionA"> Opción A</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" id="opcionB" name="tipoConsulta" value="B">
-                    <label for="opcionB"> Opción B</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" id="opcionC" name="tipoConsulta" value="C">
-                    <label for="opcionC"> Opción C</label>
-                </div>
-            </fieldset>
-
-            <textarea id="mensaje" placeholder="Escriba su mensaje..." rows="5" required></textarea>
+            <label>Mensaje</label>
+            <textarea id="mensaje" rows="5" required>Hola. El motivo de mi consulta es </textarea>
             <button type="submit">Enviar</button>
         </form>
     </div>

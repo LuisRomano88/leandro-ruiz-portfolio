@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'leandro-ruiz';
+
+  activeSection: string = 'home'; // Define la sección inicial (home).
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
+
 }

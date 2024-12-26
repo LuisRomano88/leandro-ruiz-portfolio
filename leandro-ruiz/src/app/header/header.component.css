@@ -3,8 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #ececec;
-    height: 120px;
-    position: fixed;
+    height: 100px;
     z-index: 1;
     width: 100%;
 }
@@ -21,13 +20,13 @@ h1{
     color: #251CA6;
     font-family: 'Radicalis', sans-serif;
     font-size: 2rem;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 h2{
     color: #100B4D;
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'American Captain';
 
 }
@@ -51,4 +50,31 @@ li{
     color: #100B4D;
 }
 
-
+.secciones ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .secciones li {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px 5px;
+    position: relative;
+  }
+  
+  .secciones li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Cambia el color según tus necesidades */
+    transition: width 0.3s;
+  }
+  
+  .secciones li.link-active::after {
+    width: 100%; /* La línea debajo del elemento activo */
+  }

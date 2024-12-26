@@ -5,10 +5,11 @@
     </div>
     <div class="secciones">
         <ul>
-            <li>SOBRE MI</li>
-            <li>MODALIDAD DE TRABAJO</li>
-            <li>AREAS DE ESPECIALIDAD</li>
-            <li>CONTACTO</li>
+            <li (click)="onNavigate('home')">INICIO</li>
+            <li (click)="onNavigate('about-me')">SOBRE MI</li>
+            <li (click)="onNavigate('work')">MODALIDAD DE TRABAJO</li>
+            <li (click)="onNavigate('areas')">AREAS DE ESPECIALIDAD</li>
+            <li (click)="onNavigate('contact')">CONTACTO</li>
         </ul>
     </div>
 </div>

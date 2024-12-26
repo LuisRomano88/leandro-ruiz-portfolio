@@ -1,7 +1,7 @@
 .container{
-
     width: 100%;
     background-color: #fff;
+    
 }
 
 .container h1{
@@ -11,7 +11,7 @@
     background: linear-gradient(83deg, rgba(37,28,166,1) 0%, rgba(130,127,176,0.99 ) 100%);     color: #fff;
     font-family: 'American Captain';
     padding: 30px;
-    margin: 0 0 50px 0;
+
 }
 
 .box{
